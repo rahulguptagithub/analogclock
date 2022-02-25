@@ -1,0 +1,36 @@
+#clock {
+  height: 40vw;
+  width: 40vw;
+  margin: auto;
+  background: url(wallClock.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  background: black;
+  border-radius: 25%;
+  transform-origin: bottom;
+}
+#hour {
+  width: 2%;
+  height: 22%;
+  top: 32.5%;
+  left: 49%;
+}
+#minute {
+  width: 1.5%;
+  height: 27%;
+  top: 28%;
+  left: 49.3%;
+  background: red;
+}
+#second {
+  width: 1.5%;
+  height: 30%;
+  top: 24%;
+  left: 49.5%;
+  background: blue;
+}
